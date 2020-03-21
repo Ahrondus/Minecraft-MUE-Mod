@@ -33,17 +33,17 @@ public class iteminit
 	@SubscribeEvent
 	public static void registerItems(final RegistryEvent.Register<Item> event)
 	{
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(2).saturation(0.4f).build())).setRegistryName("fried_eggs"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(0.6f).build())).setRegistryName("scrambled_eggs"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(1).saturation(1.2f).build())).setRegistryName("sliced_bread"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(2).saturation(1.4f).build())).setRegistryName("toast_bread"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(1).saturation(0.4f).effect(new EffectInstance(Effects.NAUSEA, 200, 1), 0.3f).build())).setRegistryName("egg_bowl_uncooked"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(4).saturation(1.2f).build())).setRegistryName("cheese_wedge"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(1.6f).build())).setRegistryName("scrambledcheese_eggs"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(12).saturation(2.0f).build())).setRegistryName("scrambledcheesebeef_eggs"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(12).saturation(2.0f).build())).setRegistryName("scrambledcheesepork_eggs"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(12).saturation(2.0f).build())).setRegistryName("scrambledcheesechicken_eggs"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(1.2f).build())).setRegistryName("toastfried_eggs"));
-		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(1.4f).build())).setRegistryName("toastscrambled_eggs"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(2).saturation(0.5f).build())).setRegistryName("fried_eggs"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(0.67f).build())).setRegistryName("scrambled_eggs"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(1).saturation(0.5f).build())).setRegistryName("sliced_bread"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(2).saturation(1.5f).build())).setRegistryName("toast_bread"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(1).saturation(0.5f).effect(new EffectInstance(Effects.NAUSEA, 200, 1), 0.35f).build())).setRegistryName("egg_bowl_uncooked"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(4).saturation(0.75f).build())).setRegistryName("cheese_wedge"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(0.75f).build())).setRegistryName("scrambledcheese_eggs"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(11).saturation(0.75f).build())).setRegistryName("scrambledcheesebeef_eggs"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(11).saturation(0.75f).build())).setRegistryName("scrambledcheesepork_eggs"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(11).saturation(0.75f).build())).setRegistryName("scrambledcheesechicken_eggs"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(5).saturation(0.75f).build())).setRegistryName("toastfried_eggs"));
+		event.getRegistry().register(new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(0.75f).build())).setRegistryName("toastscrambled_eggs"));
 	}
 }
